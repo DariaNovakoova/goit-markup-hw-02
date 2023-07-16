@@ -1,0 +1,228 @@
+:root {
+  --navyblue: #2e2f42;
+  --white: #ffffff;
+  --cloud: #f4f4fd;
+  --primary-accent-color-slate: #434455;
+  --secondary-accent-color-ocean: #404bbf;
+  --active-link-color-ocean: #404bbf;
+  --primary-font: "Roboto", sans-serif;
+  --primary-button-color-iris: #4d5ae5;
+  --primary-button2-backcl-cloud: #f4f4fd;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-accent-color-slate);
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--navyblue);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.span-logo {
+  color: var(--primary-button-color-iris);
+}
+
+.header-featch {
+  background-color: var(--white);
+}
+
+.sec-hero {
+  background-color: var(--navyblue);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.address-link .link {
+  color: var(--primary-accent-color-slate);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+
+.address-link .link:hover,
+.address-link .link:focus {
+  color: var(--secondary-accent-color-ocean);
+}
+
+.address-link .link:active {
+  color: var(--active-link-color-ocean);
+}
+
+.button-1 {
+  color: var(--white);
+  background-color: var(--primary-button-color-iris);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: var(--secondary-accent-color-ocean);
+}
+
+.button-1:active {
+  background-color: var(--active-link-color-ocean);
+}
+
+.butn-list .button-2 {
+  color: var(--primary-button-color-iris);
+  background-color: var(--primary-button2-backcl-cloud);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+.butn-list .button-2:hover,
+.butn-list .button-2:focus {
+  color: var(--white);
+  background-color: var(--secondary-accent-color-ocean);
+}
+
+.butn-list .button-2:active {
+  color: var(--white);
+  background-color: var(--secondary-accent-color-ocean);
+}
+
+.add-info .id-nav {
+  color: var(--navyblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+
+.add-info .id-nav:hover,
+.add-info .id-nav:focus {
+  color: var(--secondary-accent-color-ocean);
+  text-decoration: underline;
+}
+
+.add-info .id-nav:active {
+  color: var(--active-link-color-ocean);
+  text-decoration: underline;
+}
+
+.hero-title {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
+
+.solutions-title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.solutions-description {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.title {
+  color: var(--navyblue);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.footer-descr {
+  color: var(--cloud);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.change {
+  color: var(--cloud);
+}
+
+.team-backcl {
+  background-color: var(--cloud);
+}
+
+.list-backcl .title-img {
+  background-color: var(--white);
+}
+
+.name {
+  color: var(--navyblue);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.prof {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.serv {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.content {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.photo-link {
+  text-decoration: none;
+}
