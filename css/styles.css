@@ -13,6 +13,7 @@
 body {
   font-family: var(--primary-font);
   color: var(--primary-accent-color-slate);
+  background-color: var(--white);
 }
 
 button {
@@ -21,18 +22,24 @@ button {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  color: var(--navyblue);
+  color: var(--primary-button-color-iris);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
-.span-logo {
-  color: var(--primary-button-color-iris);
+.span-logo-1 {
+  color: var(--navyblue);
+}
+.span-logo-2 {
+  color: var(--cloud);
+}
+
+.link {
+  text-decoration: none;
 }
 
 .header-featch {
@@ -43,7 +50,7 @@ button {
   background-color: var(--navyblue);
 }
 
-ul {
+.list {
   list-style-type: none;
 }
 
@@ -68,6 +75,7 @@ ul {
 
 .button-1 {
   color: var(--white);
+  font-family: var(--primary-font);
   background-color: var(--primary-button-color-iris);
   font-size: 16px;
   font-style: normal;
@@ -85,9 +93,10 @@ ul {
   background-color: var(--active-link-color-ocean);
 }
 
-.butn-list .button-2 {
+.button-2 {
   color: var(--primary-button-color-iris);
   background-color: var(--primary-button2-backcl-cloud);
+  font-family: var(--primary-font);
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -113,8 +122,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.32px;
-  text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 .add-info .id-nav:hover,
@@ -128,13 +136,17 @@ ul {
   text-decoration: underline;
 }
 
+.address-stl {
+  font-style: normal;
+}
+
 .hero-title {
   color: var(--white);
   text-align: center;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
@@ -162,7 +174,7 @@ ul {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -216,13 +228,10 @@ ul {
 }
 
 .content {
+  color: var(--primary-accent-color-slate);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
-}
-
-.photo-link {
-  text-decoration: none;
 }
