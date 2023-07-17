@@ -31,10 +31,10 @@ button {
   text-transform: uppercase;
 }
 
-.span-logo-1 {
+.span-logo-one {
   color: var(--navyblue);
 }
-.span-logo-2 {
+.span-logo-two {
   color: var(--cloud);
 }
 
@@ -73,7 +73,7 @@ button {
   color: var(--active-link-color-ocean);
 }
 
-.button-1 {
+.button-one {
   color: var(--white);
   font-family: var(--primary-font);
   background-color: var(--primary-button-color-iris);
@@ -84,16 +84,16 @@ button {
   letter-spacing: 0.64px;
 }
 
-.button-1:hover,
-.button-1:focus {
+.button-one:hover,
+.button-one:focus {
   background-color: var(--secondary-accent-color-ocean);
 }
 
-.button-1:active {
+.button-one:active {
   background-color: var(--active-link-color-ocean);
 }
 
-.button-2 {
+.button-two {
   color: var(--primary-button-color-iris);
   background-color: var(--primary-button2-backcl-cloud);
   font-family: var(--primary-font);
@@ -105,13 +105,13 @@ button {
   letter-spacing: 0.64px;
 }
 
-.butn-list .button-2:hover,
-.butn-list .button-2:focus {
+.butn-list .button-two:hover,
+.butn-list .button-two:focus {
   color: var(--white);
   background-color: var(--secondary-accent-color-ocean);
 }
 
-.butn-list .button-2:active {
+.butn-list .button-two:active {
   color: var(--white);
   background-color: var(--secondary-accent-color-ocean);
 }
