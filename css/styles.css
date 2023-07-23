@@ -1,18 +1,18 @@
 :root {
-  --navyblue: #2e2f42;
+  --main-font: "Roboto", sans-serif;
   --white: #ffffff;
+  --navyblue: #2e2f42;
   --cloud: #f4f4fd;
-  --primary-accent-color-slate: #434455;
-  --secondary-accent-color-ocean: #404bbf;
-  --active-link-color-ocean: #404bbf;
-  --primary-font: "Roboto", sans-serif;
-  --primary-button-color-iris: #4d5ae5;
-  --primary-button2-backcl-cloud: #f4f4fd;
+  --slate: #434455;
+  --ocean: #404bbf;
+  --iris: #4d5ae5;
 }
 
+/* SHARED PROPERTIES */
+
 body {
-  font-family: var(--primary-font);
-  color: var(--primary-accent-color-slate);
+  font-family: var(--main-font);
+  color: var(--slate);
   background-color: var(--white);
 }
 
@@ -20,124 +20,102 @@ button {
   cursor: pointer;
 }
 
-.logo {
-  font-family: "Raleway", sans-serif;
-  color: var(--primary-button-color-iris);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
-.span-logo-one {
-  color: var(--navyblue);
-}
-.span-logo-two {
-  color: var(--cloud);
-}
-
 .link {
   text-decoration: none;
-}
-
-.header-featch {
-  background-color: var(--white);
-}
-
-.sec-hero {
-  background-color: var(--navyblue);
 }
 
 .list {
   list-style-type: none;
 }
 
-.address-link .link {
-  color: var(--primary-accent-color-slate);
-  font-size: 16px;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* HEADER */
+
+.header {
+}
+
+.nav {
+}
+
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  color: var(--iris);
+  font-size: 18px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  text-decoration: none;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.address-link .link:hover,
-.address-link .link:focus {
-  color: var(--secondary-accent-color-ocean);
+.span-logo-first {
+  color: var(--navyblue);
 }
 
-.address-link .link:active {
-  color: var(--active-link-color-ocean);
+.nav-list {
 }
 
-.button-one {
-  color: var(--white);
-  font-family: var(--primary-font);
-  background-color: var(--primary-button-color-iris);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+.nav-point {
 }
 
-.button-one:hover,
-.button-one:focus {
-  background-color: var(--secondary-accent-color-ocean);
-}
-
-.button-one:active {
-  background-color: var(--active-link-color-ocean);
-}
-
-.button-two {
-  color: var(--primary-button-color-iris);
-  background-color: var(--primary-button2-backcl-cloud);
-  font-family: var(--primary-font);
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-}
-
-.butn-list .button-two:hover,
-.butn-list .button-two:focus {
-  color: var(--white);
-  background-color: var(--secondary-accent-color-ocean);
-}
-
-.butn-list .button-two:active {
-  color: var(--white);
-  background-color: var(--secondary-accent-color-ocean);
-}
-
-.add-info .id-nav {
+.nav-id-link.link {
   color: var(--navyblue);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.add-info .id-nav:hover,
-.add-info .id-nav:focus {
-  color: var(--secondary-accent-color-ocean);
-  text-decoration: underline;
+.nav-id-link:hover,
+.nav-id-link:focus {
+  color: var(--ocean);
 }
 
-.add-info .id-nav:active {
-  color: var(--active-link-color-ocean);
-  text-decoration: underline;
-}
-
-.address-stl {
+.address {
   font-style: normal;
+}
+
+.address-list {
+}
+
+.address-point {
+}
+
+.address-link.link {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean);
+}
+
+/* MAIN - STUDIO */
+
+.main-studio {
+}
+
+/* SECTION - 1 */
+
+.hero-section {
+  background-color: var(--navyblue);
 }
 
 .hero-title {
@@ -147,7 +125,34 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  background-color: var(--iris);
+  color: var(--white);
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--ocean);
+}
+
+/* SECTION - 2 */
+
+.solutions-section {
+}
+
+.solutions-list {
+}
+
+.solutions-point {
 }
 
 .solutions-title {
@@ -155,83 +160,172 @@ button {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .solutions-description {
+  color: var(--slate);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.title {
+/* SECTION - 3 */
+
+.work-section {
+}
+
+.work-title {
   color: var(--navyblue);
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
-.footer-descr {
-  color: var(--cloud);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+.work-list {
 }
 
-.change {
-  color: var(--cloud);
+.work-point {
 }
 
-.team-backcl {
+/* SECTION - 4 */
+
+.team-section {
   background-color: var(--cloud);
 }
 
-.list-backcl .title-img {
+.team-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-list {
+}
+
+.team-point {
   background-color: var(--white);
 }
 
-.name {
-  color: var(--navyblue);
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
-
-.prof {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-
-.serv {
+.team-name {
   color: var(--navyblue);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.content {
-  color: var(--primary-accent-color-slate);
+.team-profession {
+  color: var(--slate);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* MAIN-PORTFOLIO */
+
+.main-portfolio {
+}
+
+.portfolio-section {
+}
+
+/* BUTTONS(portfolio) */
+
+.button-list {
+}
+
+.button-point {
+}
+
+.button-name {
+  color: var(--iris);
+  background-color: var(--cloud);
+  font-family: var(--main-font);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.button-name:hover,
+.button-name:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+/* SERVICE-SECTION */
+
+.service-list {
+}
+
+.service-point {
+}
+
+.service-link {
+}
+
+.service-title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.service-content {
+  color: var(--slate);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--navyblue);
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  color: var(--iris);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.span-logo-second {
+  color: var(--cloud);
+}
+
+.footer-description {
+  color: var(--cloud);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
